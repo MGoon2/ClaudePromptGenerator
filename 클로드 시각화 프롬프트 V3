@@ -1,0 +1,185 @@
+프롬프트:
+
+
+
+제공한 파일/자료를 분석하고, 이를 아름답고 세련된 한국어 시각화 단일 html 웹페이지로 변환해야 합니다.
+
+<visualization_prompt>
+
+    <content_requirements>
+
+    <language>모든 페이지 내용은 한국어로 작성되어야 합니다.</language>
+
+    <information>원본 파일의 핵심 정보를 유지하되, 보다 가독성 높고 시각화된 방식으로 표현해주세요.</information>
+
+    <author_section>
+
+      페이지 하단에 작성자 정보 영역을 추가하고 다음 내용을 포함해주세요:
+
+      <author_name>[작성자 이름을 입력하세요]</author_name>
+
+      <social_media>소셜 미디어 링크: [소셜 미디어 주소를 입력하세요.]</social_media>
+
+      <copyright>저작권 정보 및 [연도]</copyright>
+
+    </author_section>
+
+  </content_requirements>
+
+ 
+
+  <design_style>
+
+    <overall>Linear App의 미니멀하고 모던한 디자인을 참고하세요.</overall>
+
+    <hierarchy>명확한 시각적 계층 구조를 사용하여 중요한 콘텐츠를 강조해주세요.</hierarchy>
+
+    <color_scheme>전문적이고 조화로우며 장시간 읽기에 적합한 색상 구성을 사용해주세요.</color_scheme>
+
+    <custom_style>원하는 경우 [특정 스타일]을 지정할 수 있습니다 (예: 사이버펑크, 미니멀리즘, 잡지 스타일 등)</custom_style>
+
+  </design_style>
+
+ 
+
+  <technical_specifications>
+
+    <technologies>HTML5, TailwindCSS 3.0+(CDN 통해 가져오기) 및 필요한 JavaScript를 사용해주세요.</technologies>
+
+    <dark_mode>완전한 다크/라이트 모드 전환 기능을 구현하고, 기본값은 시스템 설정을 따르도록 해주세요.</dark_mode>
+
+    <code_structure>이해와 유지보수가 용이하도록 명확한 코드 구조와 적절한 주석을 포함해주세요.</code_structure>
+
+  </technical_specifications>
+
+ 
+
+  <responsive_design>
+
+    <devices>모든 기기(휴대폰, 태블릿, 데스크톱)에서 완벽하게 표시되어야 합니다.</devices>
+
+    <optimization>다양한 화면 크기에 맞게 레이아웃과 글꼴 크기를 최적화해주세요.</optimization>
+
+    <touch>모바일에서 우수한 터치 경험을 보장해주세요.</touch>
+
+  </responsive_design>
+
+ 
+
+  <media_resources>
+
+    <images>
+
+      문서에 포함된 이미지 링크를 다음과 같이 처리하세요:
+
+      <markdown_format>마크다운 형식의 이미지 링크 ![이미지 설명](이미지URL) 사용 시 해당 위치에 이미지를 삽입합니다.</markdown_format>
+
+      <text_format>텍스트 형식의 경우 "설명: 이미지URL" 형식으로 제공된 이미지를 적절한 위치에 삽입합니다.</text_format>
+
+      <image_sources>
+
+        - 온라인 이미지: 이미지 URL을 직접 사용
+
+        - 로컬 이미지: [이미지 호스팅 서비스(예: sm.ms)]를 통해 업로드한 후 제공된 URL 사용
+
+      </image_sources>
+
+    </images>
+
+    <videos>
+
+      문서에 포함된 비디오 삽입 코드를 처리하세요:
+
+      <embed_codes>유튜브, 비메오 등의 비디오 플랫폼에서 제공하는 '퍼가기/임베드' 코드를 문서에 포함할 경우 해당 위치에 비디오를 삽입합니다.</embed_codes>
+
+      <video_placement>비디오는 관련 콘텐츠 근처에 배치하고, 모든 화면 크기에서 잘 작동하도록 조정하세요.</video_placement>
+
+    </videos>
+
+  </media_resources>
+
+ 
+
+  <icons_and_visuals>
+
+    <icon_library>Font Awesome 또는 Material Icons와 같은 전문 아이콘 라이브러리를 CDN을 통해 가져와 사용해주세요.</icon_library>
+
+    <illustrations>콘텐츠 주제에 맞는 적절한 일러스트레이션이나 차트를 선택하여 데이터를 표시해주세요.</illustrations>
+
+    <emoji>이모지를 주요 아이콘으로 사용하는 것은 피해주세요.</emoji>
+
+  </icons_and_visuals>
+
+ 
+
+  <interaction_experience>
+
+    <micro_interactions>
+
+      사용자 경험을 향상시키는 적절한 마이크로 인터랙션을 추가해주세요:
+
+      <button_hover>버튼에 마우스를 올렸을 때 약간의 확대와 색상 변화</button_hover>
+
+      <card_hover>카드 요소에 마우스를 올렸을 때 세련된 그림자와 테두리 효과</card_hover>
+
+      <scroll>페이지 스크롤 시 부드러운 전환 효과</scroll>
+
+      <loading>콘텐츠 블록 로딩 시 우아한 페이드인 애니메이션</loading>
+
+      <keyboard_navigation>[필요한 경우 키보드 네비게이션 기능 추가]</keyboard_navigation>
+
+    </micro_interactions>
+
+  </interaction_experience>
+
+ 
+
+  <content_types>
+
+    <presentation>프레젠테이션 자료의 경우, 슬라이드 형식으로 변환하여 페이지 간 쉬운 이동이 가능하도록 합니다.</presentation>
+
+    <resume>이력서의 경우, 핵심 역량과 경험을 강조하고 포트폴리오 작품을 보여줄 수 있는 갤러리 섹션을 포함합니다.</resume>
+
+    <travel_guide>여행 가이드의 경우, 장소별로 구분하고 지도와 이미지를 적절히 배치합니다.</travel_guide>
+
+    <article>기사나 블로그의 경우, 읽기 쉬운 타이포그래피와 관련 이미지를 통해 내용을 강조합니다.</article>
+
+    <education>교육 자료의 경우, 개념을 시각적으로 설명하고 상호작용 요소를 추가합니다.</education>
+
+    <custom>[기타 콘텐츠 유형에 맞는 특별한 요구사항이 있다면 여기에 기재하세요]</custom>
+
+  </content_types>
+
+ 
+
+  <performance_optimization>
+
+    <loading_speed>페이지 로딩 속도가 빠르도록 하고, 불필요한 대용량 리소스를 피해주세요.</loading_speed>
+
+    <image_format>현대적인 형식(WebP)을 사용하고 적절히 압축된 이미지를 사용해주세요.</image_format>
+
+    <lazy_loading>긴 페이지 콘텐츠에는 지연 로딩 기술을 구현해주세요.</lazy_loading>
+
+  </performance_optimization>
+
+ 
+
+  <output_requirements>
+
+    <file_format>필요한 모든 CSS와 JavaScript가 포함된 완전히 실행 가능한 단일 HTML 파일을 제공해주세요.</file_format>
+
+    <standards>코드가 W3C 표준을 준수하고 오류 경고가 없도록 해주세요.</standards>
+
+    <compatibility>다양한 브라우저에서 일관된 외관과 기능을 유지하도록 해주세요.</compatibility>
+
+  </output_requirements>
+
+ 
+
+  <conclusion>
+
+    업로드된 파일의 내용 유형(문서, 데이터, 이미지 등)에 따라 해당 콘텐츠를 가장 적절하게 표현할 수 있는 시각화 웹페이지를 만들어주세요.
+
+  </conclusion>
+
+</visualization_prompt>
